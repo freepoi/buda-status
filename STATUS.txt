@@ -1,39 +1,39 @@
-time_utc: 2026-08-25T18:50:30Z
+time_utc: 2026-08-25T19:00:30Z
 host: ip-172-31-30-155
 commit: 34256c2
 collector: active
 disk_free: 91G
 
 == db ==
-snapshots/okx: 1652
-snapshots/polymarket: 1707
-settlements/okx: 21
-settlements/polymarket: 11
-last_snapshot_utc: 2026-08-25 18:50:29
+snapshots/okx: 3408
+snapshots/polymarket: 3510
+settlements/okx: 23
+settlements/polymarket: 13
+last_snapshot_utc: 2026-08-25 19:00:30
 
 == last 25 log lines ==
-2026-08-25T18:41:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:41:18,304 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0255-0300
-2026-08-25T18:41:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:41:18,304 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0240-0245
-2026-08-25T18:41:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:41:18,772 INFO buda.pm pm clob connected (6 assets)
-2026-08-25T18:42:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:42:16,278 INFO buda health | okx: windows=6 active=1 ref=79144.2 ref_age_ms=76 | polymarket: windows=3 active=1 ref=None ref_age_ms=None
-2026-08-25T18:43:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:43:16,303 INFO buda health | okx: windows=6 active=2 ref=79140.0 ref_age_ms=217 | polymarket: windows=3 active=2 ref=None ref_age_ms=None
-2026-08-25T18:43:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:43:18,208 INFO buda.pm window btc-updown-5m-1787684100 tokens up=9603886455 down=1441395967
-2026-08-25T18:43:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:43:18,900 INFO buda.pm pm clob connected (8 assets)
-2026-08-25T18:44:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:44:16,329 INFO buda health | okx: windows=6 active=2 ref=79170.6 ref_age_ms=30 | polymarket: windows=4 active=2 ref=None ref_age_ms=None
-2026-08-25T18:45:00+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:45:00,496 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0300-0305
-2026-08-25T18:45:07+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:45:07,997 INFO buda.okx window BTC-UPDOWN-5MIN-260826-0245-0250 target fixed: 79169
-2026-08-25T18:45:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:45:16,349 INFO buda health | okx: windows=8 active=2 ref=79175.2 ref_age_ms=43 | polymarket: windows=4 active=2 ref=None ref_age_ms=None
-2026-08-25T18:45:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:45:30,511 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:books,instId:BTC-UPDOWN-5MIN-260826-0240-0245 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17cf4447'}
-2026-08-25T18:45:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:45:30,511 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:trades,instId:BTC-UPDOWN-5MIN-260826-0240-0245 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17cf4447'}
-2026-08-25T18:45:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:45:30,972 INFO buda.pm pm clob connected (6 assets)
-2026-08-25T18:46:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:46:16,358 INFO buda health | okx: windows=8 active=1 ref=79182.0 ref_age_ms=43 | polymarket: windows=4 active=1 ref=None ref_age_ms=None
-2026-08-25T18:47:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:47:16,371 INFO buda health | okx: windows=8 active=1 ref=79220.2 ref_age_ms=66 | polymarket: windows=4 active=1 ref=None ref_age_ms=None
-2026-08-25T18:48:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:48:16,406 INFO buda health | okx: windows=8 active=2 ref=79230.3 ref_age_ms=224 | polymarket: windows=4 active=2 ref=None ref_age_ms=None
-2026-08-25T18:48:19+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:48:19,432 INFO buda.pm window btc-updown-5m-1787684400 tokens up=8450906028 down=8888346779
-2026-08-25T18:48:21+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:48:21,052 INFO buda.pm pm clob connected (8 assets)
-2026-08-25T18:49:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:49:16,414 INFO buda health | okx: windows=8 active=2 ref=79203.7 ref_age_ms=99 | polymarket: windows=5 active=2 ref=None ref_age_ms=None
-2026-08-25T18:50:00+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:50:00,625 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0305-0310
-2026-08-25T18:50:05+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:50:05,157 INFO buda.okx window BTC-UPDOWN-5MIN-260826-0250-0255 target fixed: 79218
-2026-08-25T18:50:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:50:16,428 INFO buda health | okx: windows=8 active=2 ref=79221.7 ref_age_ms=233 | polymarket: windows=5 active=2 ref=None ref_age_ms=None
-2026-08-25T18:50:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:50:30,656 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:books,instId:BTC-UPDOWN-5MIN-260826-0245-0250 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17cf4447'}
-2026-08-25T18:50:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:50:30,657 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:trades,instId:BTC-UPDOWN-5MIN-260826-0245-0250 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17cf4447'}
+2026-08-25T18:53:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:53:16,469 INFO buda health | okx: windows=8 active=2 ref=79140.5 ref_age_ms=378 | polymarket: windows=6 active=2 ref=None ref_age_ms=None
+2026-08-25T18:54:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:54:16,478 INFO buda health | okx: windows=8 active=2 ref=79065.0 ref_age_ms=49 | polymarket: windows=6 active=2 ref=None ref_age_ms=None
+2026-08-25T18:55:00+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:55:00,806 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0310-0315
+2026-08-25T18:55:02+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:55:02,428 INFO buda.okx window BTC-UPDOWN-5MIN-260826-0255-0300 target fixed: 79068.1
+2026-08-25T18:55:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:55:16,498 INFO buda health | okx: windows=8 active=2 ref=79059.9 ref_age_ms=179 | polymarket: windows=5 active=2 ref=None ref_age_ms=None
+2026-08-25T18:55:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:55:30,824 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:books,instId:BTC-UPDOWN-5MIN-260826-0250-0255 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17cf4447'}
+2026-08-25T18:55:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:55:30,824 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:trades,instId:BTC-UPDOWN-5MIN-260826-0250-0255 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17cf4447'}
+2026-08-25T18:55:31+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:55:31,300 INFO buda.pm pm clob connected (6 assets)
+2026-08-25T18:56:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:56:16,523 INFO buda health | okx: windows=8 active=1 ref=79075.8 ref_age_ms=96 | polymarket: windows=5 active=1 ref=None ref_age_ms=None
+2026-08-25T18:57:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:57:16,544 INFO buda health | okx: windows=8 active=1 ref=79080.7 ref_age_ms=78 | polymarket: windows=5 active=1 ref=None ref_age_ms=None
+2026-08-25T18:58:04+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:58:04,343 INFO buda.pm window btc-updown-5m-1787685000 tokens up=9080502745 down=6684480715
+2026-08-25T18:58:05+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:58:05,384 INFO buda.pm pm clob connected (8 assets)
+2026-08-25T18:58:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:58:16,564 INFO buda health | okx: windows=8 active=2 ref=79092.6 ref_age_ms=492 | polymarket: windows=6 active=2 ref=None ref_age_ms=None
+2026-08-25T18:59:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:59:16,572 INFO buda health | okx: windows=8 active=2 ref=79135.9 ref_age_ms=374 | polymarket: windows=6 active=2 ref=None ref_age_ms=None
+2026-08-25T18:59:17+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:59:17,538 ERROR buda okx.ws: crashed: ConnectionError('okx ws closed')
+2026-08-25T18:59:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:59:18,569 INFO buda.okx okx ws connected
+2026-08-25T18:59:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:59:18,569 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0255-0300
+2026-08-25T18:59:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:59:18,569 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0310-0315
+2026-08-25T18:59:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:59:18,569 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0305-0310
+2026-08-25T18:59:18+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 18:59:18,570 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0300-0305
+2026-08-25T19:00:00+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 19:00:00,585 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-0315-0320
+2026-08-25T19:00:04+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 19:00:04,616 INFO buda.okx window BTC-UPDOWN-5MIN-260826-0300-0305 target fixed: 79124
+2026-08-25T19:00:16+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 19:00:16,577 INFO buda health | okx: windows=8 active=2 ref=79135.7 ref_age_ms=129 | polymarket: windows=5 active=2 ref=None ref_age_ms=None
+2026-08-25T19:00:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 19:00:30,618 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:books,instId:BTC-UPDOWN-5MIN-260826-0255-0300 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17a06cda'}
+2026-08-25T19:00:30+00:00 ip-172-31-30-155 buda-collect[12640]: 2026-08-25 19:00:30,618 WARNING buda.okx okx ws error: {'event': 'error', 'msg': "Unsubscribe failed, wrong URL or channel:trades,instId:BTC-UPDOWN-5MIN-260826-0255-0300 doesn't exist. Please use the correct URL, channel and parameters referring to API document.", 'code': '60035', 'connId': '17a06cda'}
