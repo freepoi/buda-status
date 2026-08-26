@@ -1,41 +1,41 @@
-time_utc: 2026-08-26T23:30:02Z
+time_utc: 2026-08-26T23:40:02Z
 host: ip-172-31-30-155
 commit: 243d880
 collector: active
 disk_free: 84G
 
 == db ==
-snapshots/binance: 34020
-snapshots/okx: 302540
-snapshots/polymarket: 311152
-settlements/binance: 52
-settlements/okx: 365
-settlements/polymarket: 355
-last_snapshot_utc: 2026-08-26 23:30:04
+snapshots/binance: 35820
+snapshots/okx: 304289
+snapshots/polymarket: 312952
+settlements/binance: 54
+settlements/okx: 367
+settlements/polymarket: 357
+last_snapshot_utc: 2026-08-26 23:40:02
 
 == last 25 log lines ==
-2026-08-26T23:20:06+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:20:06,094 INFO buda.bn bn strike btc-updown-5m-1787786400 = 78716.955
-2026-08-26T23:20:30+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:20:30,508 INFO buda.pm pm clob connected (6 assets)
-2026-08-26T23:20:45+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:20:45,957 INFO buda health | okx: windows=8 active=1 ref=78715.6 ref_age_ms=91 | polymarket: windows=5 active=1 ref=78713.73982263157 ref_age_ms=255 | binance: windows=5 active=1 ref=78713.73982263157 ref_age_ms=255
-2026-08-26T23:20:45+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:20:45,975 INFO buda.bn bn settle btc-updown-5m-1787786100 outcome=UP end=78716.955 strike=78708.735
-2026-08-26T23:21:45+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:21:45,986 INFO buda health | okx: windows=8 active=1 ref=78724.7 ref_age_ms=58 | polymarket: windows=5 active=1 ref=78700.35200961652 ref_age_ms=457 | binance: windows=5 active=1 ref=78700.35200961652 ref_age_ms=457
-2026-08-26T23:22:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:22:46,010 INFO buda health | okx: windows=8 active=1 ref=78724.2 ref_age_ms=146 | polymarket: windows=5 active=1 ref=78732.039512065 ref_age_ms=1352 | binance: windows=5 active=1 ref=78732.039512065 ref_age_ms=1352
-2026-08-26T23:23:15+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:23:15,481 INFO buda.pm window btc-updown-5m-1787787300 tokens up=7024965653 down=2203554318
-2026-08-26T23:23:16+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:23:16,604 INFO buda.pm pm clob connected (8 assets)
-2026-08-26T23:23:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:23:46,041 INFO buda health | okx: windows=8 active=2 ref=78723.1 ref_age_ms=72 | polymarket: windows=6 active=2 ref=78722.21159118207 ref_age_ms=481 | binance: windows=5 active=2 ref=78722.21159118207 ref_age_ms=481
-2026-08-26T23:24:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:24:46,057 INFO buda health | okx: windows=9 active=2 ref=78741.3 ref_age_ms=182 | polymarket: windows=6 active=2 ref=78737.73021922 ref_age_ms=812 | binance: windows=5 active=2 ref=78737.73021922 ref_age_ms=812
-2026-08-26T23:25:00+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:00,191 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0740-0745
-2026-08-26T23:25:05+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:05,758 INFO buda.okx window BTC-UPDOWN-5MIN-260827-0725-0730 target fixed: 78738.5
-2026-08-26T23:25:06+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:06,168 INFO buda.bn bn window btc-updown-5m-1787787300 market=1727791 strike=None
-2026-08-26T23:25:06+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:06,211 INFO buda.bn bn enrich btc-updown-5m-1787787300 takerFeeBps=200 outcomes=['UP', 'DOWN']
-2026-08-26T23:25:06+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:06,230 INFO buda.bn bn strike btc-updown-5m-1787786700 = 78740.395
-2026-08-26T23:25:30+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:30,717 INFO buda.pm pm clob connected (6 assets)
-2026-08-26T23:25:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:46,084 INFO buda health | okx: windows=8 active=1 ref=78777.6 ref_age_ms=650 | polymarket: windows=5 active=1 ref=78773.15885705888 ref_age_ms=912 | binance: windows=5 active=1 ref=78773.15885705888 ref_age_ms=912
-2026-08-26T23:25:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:25:46,104 INFO buda.bn bn settle btc-updown-5m-1787786400 outcome=UP end=78740.395 strike=78716.955
-2026-08-26T23:26:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:26:46,106 INFO buda health | okx: windows=8 active=1 ref=78822.8 ref_age_ms=35 | polymarket: windows=5 active=1 ref=78817.16444652359 ref_age_ms=368 | binance: windows=5 active=1 ref=78817.16444652359 ref_age_ms=368
-2026-08-26T23:27:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:27:46,126 INFO buda health | okx: windows=8 active=1 ref=78842.6 ref_age_ms=157 | polymarket: windows=5 active=1 ref=78838.65305651403 ref_age_ms=417 | binance: windows=5 active=1 ref=78838.65305651403 ref_age_ms=417
-2026-08-26T23:28:16+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:28:16,807 INFO buda.pm window btc-updown-5m-1787787600 tokens up=6823957333 down=1860070122
-2026-08-26T23:28:18+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:28:18,786 INFO buda.pm pm clob connected (8 assets)
-2026-08-26T23:28:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:28:46,140 INFO buda health | okx: windows=8 active=2 ref=78864.0 ref_age_ms=50 | polymarket: windows=6 active=2 ref=78860.92952117 ref_age_ms=888 | binance: windows=5 active=2 ref=78860.92952117 ref_age_ms=888
-2026-08-26T23:29:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:29:46,154 INFO buda health | okx: windows=10 active=2 ref=78870.9 ref_age_ms=44 | polymarket: windows=6 active=2 ref=78870.14194047822 ref_age_ms=1000 | binance: windows=5 active=2 ref=78870.14194047822 ref_age_ms=1000
-2026-08-26T23:30:00+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:30:00,350 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0745-0750
+2026-08-26T23:31:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:31:46,189 INFO buda health | okx: windows=9 active=1 ref=78903.6 ref_age_ms=115 | polymarket: windows=5 active=1 ref=78899.799 ref_age_ms=1015 | binance: windows=5 active=1 ref=78899.799 ref_age_ms=1015
+2026-08-26T23:32:17+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:32:17,140 ERROR buda pm.clob: crashed: ConnectionError('pm clob ws closed')
+2026-08-26T23:32:18+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:32:18,632 INFO buda.pm pm clob connected (6 assets)
+2026-08-26T23:32:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:32:46,204 INFO buda health | okx: windows=9 active=1 ref=78913.9 ref_age_ms=134 | polymarket: windows=5 active=1 ref=78910.5193336641 ref_age_ms=1013 | binance: windows=5 active=1 ref=78910.5193336641 ref_age_ms=1013
+2026-08-26T23:33:18+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:33:18,101 INFO buda.pm window btc-updown-5m-1787787900 tokens up=2243062396 down=1011015216
+2026-08-26T23:33:18+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:33:18,656 INFO buda.pm pm clob connected (8 assets)
+2026-08-26T23:33:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:33:46,224 INFO buda health | okx: windows=9 active=2 ref=78881.8 ref_age_ms=144 | polymarket: windows=6 active=2 ref=78892.6101944713 ref_age_ms=396 | binance: windows=5 active=2 ref=78892.6101944713 ref_age_ms=396
+2026-08-26T23:34:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:34:46,253 INFO buda health | okx: windows=9 active=2 ref=78888.6 ref_age_ms=150 | polymarket: windows=6 active=2 ref=78898.19468000827 ref_age_ms=794 | binance: windows=5 active=2 ref=78898.19468000827 ref_age_ms=794
+2026-08-26T23:35:01+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:01,275 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0750-0755
+2026-08-26T23:35:05+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:05,534 INFO buda.okx window BTC-UPDOWN-5MIN-260827-0735-0740 target fixed: 78884.1
+2026-08-26T23:35:06+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:06,352 INFO buda.bn bn window btc-updown-5m-1787787900 market=1728152 strike=None
+2026-08-26T23:35:06+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:06,363 INFO buda.bn bn enrich btc-updown-5m-1787787900 takerFeeBps=200 outcomes=['UP', 'DOWN']
+2026-08-26T23:35:06+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:06,372 INFO buda.bn bn strike btc-updown-5m-1787787300 = 78888.735
+2026-08-26T23:35:30+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:30,889 INFO buda.pm pm clob connected (6 assets)
+2026-08-26T23:35:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:46,274 INFO buda health | okx: windows=8 active=1 ref=78948.4 ref_age_ms=202 | polymarket: windows=5 active=1 ref=78925.30731593927 ref_age_ms=872 | binance: windows=5 active=1 ref=78925.30731593927 ref_age_ms=872
+2026-08-26T23:35:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:35:46,295 INFO buda.bn bn settle btc-updown-5m-1787787000 outcome=UP end=78888.735 strike=78865.345
+2026-08-26T23:36:41+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:36:41,602 ERROR buda pm.rtds: crashed: ConnectionError('pm rtds ws closed')
+2026-08-26T23:36:43+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:36:43,353 INFO buda.pm pm rtds connected
+2026-08-26T23:36:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:36:46,296 INFO buda health | okx: windows=8 active=1 ref=78997.3 ref_age_ms=168 | polymarket: windows=5 active=1 ref=78979.63870421972 ref_age_ms=345 | binance: windows=5 active=1 ref=78979.63870421972 ref_age_ms=345
+2026-08-26T23:37:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:37:46,324 INFO buda health | okx: windows=8 active=1 ref=78947.1 ref_age_ms=215 | polymarket: windows=5 active=1 ref=78937.40157809044 ref_age_ms=1001 | binance: windows=5 active=1 ref=78937.40157809044 ref_age_ms=1001
+2026-08-26T23:38:19+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:38:19,210 INFO buda.pm window btc-updown-5m-1787788200 tokens up=3315068532 down=2229062435
+2026-08-26T23:38:20+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:38:20,978 INFO buda.pm pm clob connected (8 assets)
+2026-08-26T23:38:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:38:46,347 INFO buda health | okx: windows=8 active=2 ref=78981.4 ref_age_ms=35 | polymarket: windows=6 active=2 ref=78977.99074069054 ref_age_ms=83 | binance: windows=5 active=2 ref=78977.9762504844 ref_age_ms=728
+2026-08-26T23:39:46+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:39:46,358 INFO buda health | okx: windows=9 active=2 ref=78965.1 ref_age_ms=159 | polymarket: windows=6 active=2 ref=78964.04143359786 ref_age_ms=706 | binance: windows=5 active=2 ref=78964.04143359786 ref_age_ms=706
+2026-08-26T23:40:01+00:00 ip-172-31-30-155 buda-collect[79834]: 2026-08-26 23:40:01,457 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0755-0800
