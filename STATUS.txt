@@ -1,39 +1,39 @@
-time_utc: 2026-08-26T03:06:34Z
+time_utc: 2026-08-26T03:16:36Z
 host: ip-172-31-30-155
 commit: 319489e
 collector: active
-disk_free: 89G
+disk_free: 88G
 
 == db ==
-snapshots/okx: 88445
-snapshots/polymarket: 90929
-settlements/okx: 121
-settlements/polymarket: 111
-last_snapshot_utc: 2026-08-26 03:06:31
+snapshots/okx: 90207
+snapshots/polymarket: 92741
+settlements/okx: 123
+settlements/polymarket: 113
+last_snapshot_utc: 2026-08-26 03:16:36
 
 == last 25 log lines ==
-2026-08-26T02:55:06+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:55:06,124 INFO buda.okx window BTC-UPDOWN-5MIN-260826-1055-1100 target fixed: 79063.6
-2026-08-26T02:55:31+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:55:31,646 INFO buda.pm pm clob connected (6 assets)
-2026-08-26T02:55:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:55:51,324 INFO buda health | okx: windows=8 active=1 ref=79103.3 ref_age_ms=217 | polymarket: windows=5 active=1 ref=79088.13821332385 ref_age_ms=102
-2026-08-26T02:56:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:56:51,336 INFO buda health | okx: windows=8 active=1 ref=79128.2 ref_age_ms=114 | polymarket: windows=5 active=1 ref=79113.55639382421 ref_age_ms=940
-2026-08-26T02:57:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:57:51,341 INFO buda health | okx: windows=8 active=1 ref=79119.1 ref_age_ms=223 | polymarket: windows=5 active=1 ref=79107.44374748589 ref_age_ms=889
-2026-08-26T02:58:12+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:58:12,110 INFO buda.pm window btc-updown-5m-1787713800 tokens up=8649266292 down=3418734880
-2026-08-26T02:58:13+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:58:13,720 INFO buda.pm pm clob connected (8 assets)
-2026-08-26T02:58:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:58:51,353 INFO buda health | okx: windows=8 active=2 ref=79126.5 ref_age_ms=149 | polymarket: windows=6 active=2 ref=79112.51579521585 ref_age_ms=393
-2026-08-26T02:59:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 02:59:51,368 INFO buda health | okx: windows=10 active=2 ref=79108.1 ref_age_ms=167 | polymarket: windows=6 active=2 ref=79095.04832383922 ref_age_ms=673
-2026-08-26T03:00:01+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:00:01,301 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-1115-1120
-2026-08-26T03:00:03+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:00:03,637 INFO buda.okx window BTC-UPDOWN-5MIN-260826-1100-1105 target fixed: 79108
-2026-08-26T03:00:31+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:00:31,853 INFO buda.pm pm clob connected (6 assets)
-2026-08-26T03:00:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:00:51,394 INFO buda health | okx: windows=9 active=1 ref=79110.5 ref_age_ms=180 | polymarket: windows=5 active=1 ref=79097.27186048024 ref_age_ms=532
-2026-08-26T03:01:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:01:51,410 INFO buda health | okx: windows=9 active=1 ref=79148.3 ref_age_ms=62 | polymarket: windows=5 active=1 ref=79129.23246185557 ref_age_ms=251
-2026-08-26T03:02:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:02:51,432 INFO buda health | okx: windows=9 active=1 ref=79153.7 ref_age_ms=109 | polymarket: windows=5 active=1 ref=79139.5301899676 ref_age_ms=581
-2026-08-26T03:02:53+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:02:53,469 ERROR buda pm.clob: crashed: ConnectionError('pm clob ws closed')
-2026-08-26T03:02:54+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:02:54,968 INFO buda.pm pm clob connected (6 assets)
-2026-08-26T03:03:13+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:03:13,357 INFO buda.pm window btc-updown-5m-1787714100 tokens up=1053962364 down=9241914736
-2026-08-26T03:03:14+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:03:14,951 INFO buda.pm pm clob connected (8 assets)
-2026-08-26T03:03:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:03:51,455 INFO buda health | okx: windows=9 active=2 ref=79073.8 ref_age_ms=130 | polymarket: windows=6 active=2 ref=79063.80077029628 ref_age_ms=875
 2026-08-26T03:04:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:04:51,480 INFO buda health | okx: windows=9 active=2 ref=79069.4 ref_age_ms=49 | polymarket: windows=6 active=2 ref=79054.30032044215 ref_age_ms=635
 2026-08-26T03:05:01+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:05:01,814 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-1120-1125
 2026-08-26T03:05:06+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:05:06,162 INFO buda.okx window BTC-UPDOWN-5MIN-260826-1105-1110 target fixed: 79067.4
 2026-08-26T03:05:31+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:05:31,032 INFO buda.pm pm clob connected (6 assets)
 2026-08-26T03:05:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:05:51,492 INFO buda health | okx: windows=8 active=1 ref=79082.2 ref_age_ms=517 | polymarket: windows=5 active=1 ref=79066.48603280536 ref_age_ms=863
+2026-08-26T03:06:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:06:51,520 INFO buda health | okx: windows=8 active=1 ref=79079.2 ref_age_ms=191 | polymarket: windows=5 active=1 ref=79064.4043203287 ref_age_ms=324
+2026-08-26T03:07:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:07:51,546 INFO buda health | okx: windows=8 active=1 ref=79065.7 ref_age_ms=102 | polymarket: windows=5 active=1 ref=79051.2908688994 ref_age_ms=107
+2026-08-26T03:08:14+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:08:14,626 INFO buda.pm window btc-updown-5m-1787714400 tokens up=5998105400 down=2871273656
+2026-08-26T03:08:15+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:08:15,127 INFO buda.pm pm clob connected (8 assets)
+2026-08-26T03:08:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:08:51,568 INFO buda health | okx: windows=8 active=2 ref=79055.3 ref_age_ms=127 | polymarket: windows=6 active=2 ref=79040.78271255699 ref_age_ms=74
+2026-08-26T03:09:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:09:51,584 INFO buda health | okx: windows=9 active=2 ref=79049.6 ref_age_ms=263 | polymarket: windows=6 active=2 ref=79035.64864591045 ref_age_ms=142
+2026-08-26T03:10:02+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:10:02,009 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-1125-1130
+2026-08-26T03:10:03+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:10:03,655 INFO buda.okx window BTC-UPDOWN-5MIN-260826-1110-1115 target fixed: 79050.4
+2026-08-26T03:10:31+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:10:31,378 INFO buda.pm pm clob connected (6 assets)
+2026-08-26T03:10:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:10:51,610 INFO buda health | okx: windows=8 active=1 ref=79079.5 ref_age_ms=38 | polymarket: windows=5 active=1 ref=79063.17717753 ref_age_ms=408
+2026-08-26T03:11:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:11:51,634 INFO buda health | okx: windows=8 active=1 ref=79064.2 ref_age_ms=102 | polymarket: windows=5 active=1 ref=79050.81756005362 ref_age_ms=140
+2026-08-26T03:12:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:12:51,644 INFO buda health | okx: windows=8 active=1 ref=79080.6 ref_age_ms=190 | polymarket: windows=5 active=1 ref=79064.47022775825 ref_age_ms=221
+2026-08-26T03:13:15+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:13:15,890 INFO buda.pm window btc-updown-5m-1787714700 tokens up=8085489702 down=4574688945
+2026-08-26T03:13:17+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:13:17,426 INFO buda.pm pm clob connected (8 assets)
+2026-08-26T03:13:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:13:51,655 INFO buda health | okx: windows=8 active=2 ref=79072.4 ref_age_ms=86 | polymarket: windows=6 active=2 ref=79059.54358642241 ref_age_ms=3018
+2026-08-26T03:14:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:14:51,668 INFO buda health | okx: windows=10 active=2 ref=79068.0 ref_age_ms=587 | polymarket: windows=6 active=2 ref=79052.35235617934 ref_age_ms=886
+2026-08-26T03:15:00+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:15:00,145 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260826-1130-1135
+2026-08-26T03:15:06+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:15:06,156 INFO buda.okx window BTC-UPDOWN-5MIN-260826-1115-1120 target fixed: 79042.9
+2026-08-26T03:15:31+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:15:31,438 INFO buda.pm pm clob connected (6 assets)
+2026-08-26T03:15:51+00:00 ip-172-31-30-155 buda-collect[26506]: 2026-08-26 03:15:51,686 INFO buda health | okx: windows=9 active=1 ref=79060.6 ref_age_ms=335 | polymarket: windows=5 active=1 ref=79041.2283732736 ref_age_ms=282
