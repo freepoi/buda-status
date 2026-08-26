@@ -1,39 +1,40 @@
-time_utc: 2026-08-26T19:03:58Z
+time_utc: 2026-08-26T19:14:36Z
 host: ip-172-31-30-155
-commit: 3607b64
+commit: ebcdd5b
 collector: active
 disk_free: 85G
 
 == db ==
-snapshots/okx: 256002
-snapshots/polymarket: 263267
-settlements/okx: 312
-settlements/polymarket: 302
-last_snapshot_utc: 2026-08-26 19:03:58
+snapshots/okx: 257870
+snapshots/polymarket: 265200
+settlements/binance: 1
+settlements/okx: 314
+settlements/polymarket: 304
+last_snapshot_utc: 2026-08-26 19:14:35
 
 == last 25 log lines ==
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,385 INFO buda.pm window btc-updown-5m-1787770500 tokens up=1881190171 down=6597303175
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,385 INFO buda.pm window btc-updown-5m-1787770800 tokens up=1857839329 down=8910390399
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,385 INFO buda.pm window btc-updown-5m-1787771100 tokens up=2465993732 down=8900646979
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,387 INFO buda.okx window BTC-UPDOWN-5MIN-260827-0255-0300 target fixed: 78460.9
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,390 INFO buda.okx okx ws connected
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,391 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0255-0300
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,392 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0305-0310
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,392 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0310-0315
-2026-08-26T18:56:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:11,393 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0300-0305
-2026-08-26T18:56:12+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:12,052 INFO buda.pm pm rtds connected
-2026-08-26T18:56:13+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:56:13,768 INFO buda.pm pm clob connected (6 assets)
-2026-08-26T18:57:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:57:11,262 INFO buda health | okx: windows=6 active=1 ref=78444.3 ref_age_ms=88 | polymarket: windows=3 active=1 ref=78438.31796197443 ref_age_ms=700 | binance: windows=0 active=0 ref=None ref_age_ms=None
-2026-08-26T18:58:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:58:11,277 INFO buda health | okx: windows=6 active=2 ref=78474.6 ref_age_ms=167 | polymarket: windows=3 active=2 ref=78465.279609874 ref_age_ms=1867 | binance: windows=0 active=0 ref=None ref_age_ms=None
-2026-08-26T18:58:12+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:58:12,236 INFO buda.pm window btc-updown-5m-1787771400 tokens up=2160431615 down=9065545701
-2026-08-26T18:58:13+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:58:13,824 INFO buda.pm pm clob connected (8 assets)
-2026-08-26T18:59:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 18:59:11,299 INFO buda health | okx: windows=6 active=2 ref=78485.7 ref_age_ms=187 | polymarket: windows=4 active=2 ref=78493.54252285 ref_age_ms=750 | binance: windows=0 active=0 ref=None ref_age_ms=None
-2026-08-26T19:00:01+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:00:01,498 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0315-0320
-2026-08-26T19:00:03+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:00:03,096 INFO buda.okx window BTC-UPDOWN-5MIN-260827-0300-0305 target fixed: 78473.5
-2026-08-26T19:00:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:00:11,310 INFO buda health | okx: windows=8 active=2 ref=78461.3 ref_age_ms=222 | polymarket: windows=4 active=2 ref=78456.3200379792 ref_age_ms=479 | binance: windows=0 active=0 ref=None ref_age_ms=None
-2026-08-26T19:00:31+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:00:31,883 INFO buda.pm pm clob connected (6 assets)
-2026-08-26T19:01:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:01:11,328 INFO buda health | okx: windows=8 active=1 ref=78481.2 ref_age_ms=257 | polymarket: windows=4 active=1 ref=78476.77722304742 ref_age_ms=1226 | binance: windows=0 active=0 ref=None ref_age_ms=None
-2026-08-26T19:02:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:02:11,356 INFO buda health | okx: windows=8 active=1 ref=78463.1 ref_age_ms=245 | polymarket: windows=4 active=1 ref=78459.76341811904 ref_age_ms=634 | binance: windows=0 active=0 ref=None ref_age_ms=None
-2026-08-26T19:03:11+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:03:11,370 INFO buda health | okx: windows=8 active=2 ref=78480.1 ref_age_ms=56 | polymarket: windows=4 active=2 ref=78475.56568156615 ref_age_ms=80 | binance: windows=0 active=0 ref=None ref_age_ms=None
-2026-08-26T19:03:13+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:03:13,445 INFO buda.pm window btc-updown-5m-1787771700 tokens up=2617530238 down=7237309832
-2026-08-26T19:03:14+00:00 ip-172-31-30-155 buda-collect[74253]: 2026-08-26 19:03:14,033 INFO buda.pm pm clob connected (8 assets)
+2026-08-26T19:12:57+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:57,931 INFO buda.bn bn enrich btc-updown-5m-1787771700 takerFeeBps=200 outcomes=['UP', 'DOWN']
+2026-08-26T19:12:57+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:57,936 INFO buda.bn bn window btc-updown-5m-1787772000 market=1723316 strike=None
+2026-08-26T19:12:57+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:57,945 INFO buda.bn bn enrich btc-updown-5m-1787772000 takerFeeBps=200 outcomes=['UP', 'DOWN']
+2026-08-26T19:12:57+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:57,964 ERROR buda bn.ws: crashed: TypeError('list indices must be integers or slices, not str')
+2026-08-26T19:12:58+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:58,628 INFO buda.pm pm rtds connected
+2026-08-26T19:12:58+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:58,980 INFO buda.bn bn ws connected
+2026-08-26T19:12:59+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:59,036 ERROR buda bn.ws: crashed: TypeError('list indices must be integers or slices, not str')
+2026-08-26T19:12:59+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:59,912 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0310-0315
+2026-08-26T19:12:59+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:59,913 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0320-0325
+2026-08-26T19:12:59+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:59,913 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0325-0330
+2026-08-26T19:12:59+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:12:59,913 INFO buda.okx subscribed BTC-UPDOWN-5MIN-260827-0315-0320
+2026-08-26T19:13:00+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:00,356 INFO buda.pm pm clob connected (6 assets)
+2026-08-26T19:13:01+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:01,049 INFO buda.bn bn ws connected
+2026-08-26T19:13:01+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:01,106 ERROR buda bn.ws: crashed: TypeError('list indices must be integers or slices, not str')
+2026-08-26T19:13:05+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:05,117 INFO buda.bn bn ws connected
+2026-08-26T19:13:05+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:05,163 ERROR buda bn.ws: crashed: TypeError('list indices must be integers or slices, not str')
+2026-08-26T19:13:13+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:13,175 INFO buda.bn bn ws connected
+2026-08-26T19:13:13+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:13,229 ERROR buda bn.ws: crashed: TypeError('list indices must be integers or slices, not str')
+2026-08-26T19:13:18+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:18,476 INFO buda.pm window btc-updown-5m-1787772300 tokens up=9488344911 down=4075260117
+2026-08-26T19:13:20+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:20,811 INFO buda.pm pm clob connected (8 assets)
+2026-08-26T19:13:29+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:29,246 INFO buda.bn bn ws connected
+2026-08-26T19:13:29+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:29,316 ERROR buda bn.ws: crashed: TypeError('list indices must be integers or slices, not str')
+2026-08-26T19:13:57+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:13:57,858 INFO buda health | okx: windows=6 active=2 ref=78379.9 ref_age_ms=200 | polymarket: windows=4 active=2 ref=78375.81764868317 ref_age_ms=646 | binance: windows=3 active=2 ref=None ref_age_ms=None
+2026-08-26T19:14:01+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:14:01,355 INFO buda.bn bn ws connected
+2026-08-26T19:14:01+00:00 ip-172-31-30-155 buda-collect[74645]: 2026-08-26 19:14:01,416 ERROR buda bn.ws: crashed: TypeError('list indices must be integers or slices, not str')
