@@ -1,0 +1,317 @@
+{
+  "binance": {
+    "venue": "binance",
+    "side": "UP",
+    "days": 7.0,
+    "windows": 492,
+    "size_frac": 1.0,
+    "rows": [
+      {
+        "delta_ms": 0,
+        "obs": 422271,
+        "survival": 0.9997,
+        "price_moved": 0.0001,
+        "size_shrank": 0.0002,
+        "censored_frac": 0.0,
+        "trusted": true
+      },
+      {
+        "delta_ms": 50,
+        "obs": 421760,
+        "survival": 0.9978,
+        "price_moved": 0.0007,
+        "size_shrank": 0.0015,
+        "censored_frac": 0.0012,
+        "trusted": true
+      },
+      {
+        "delta_ms": 100,
+        "obs": 421756,
+        "survival": 0.9957,
+        "price_moved": 0.0013,
+        "size_shrank": 0.003,
+        "censored_frac": 0.0012,
+        "trusted": true
+      },
+      {
+        "delta_ms": 139,
+        "obs": 421749,
+        "survival": 0.9887,
+        "price_moved": 0.0032,
+        "size_shrank": 0.0081,
+        "censored_frac": 0.0012,
+        "trusted": true
+      },
+      {
+        "delta_ms": 200,
+        "obs": 421673,
+        "survival": 0.8155,
+        "price_moved": 0.0462,
+        "size_shrank": 0.1383,
+        "censored_frac": 0.0014,
+        "trusted": true
+      },
+      {
+        "delta_ms": 300,
+        "obs": 421577,
+        "survival": 0.6449,
+        "price_moved": 0.0892,
+        "size_shrank": 0.2658,
+        "censored_frac": 0.0016,
+        "trusted": true
+      },
+      {
+        "delta_ms": 500,
+        "obs": 421439,
+        "survival": 0.5348,
+        "price_moved": 0.1359,
+        "size_shrank": 0.3293,
+        "censored_frac": 0.002,
+        "trusted": true
+      },
+      {
+        "delta_ms": 1000,
+        "obs": 421161,
+        "survival": 0.426,
+        "price_moved": 0.214,
+        "size_shrank": 0.36,
+        "censored_frac": 0.0026,
+        "trusted": true
+      },
+      {
+        "delta_ms": 2000,
+        "obs": 420453,
+        "survival": 0.3515,
+        "price_moved": 0.3023,
+        "size_shrank": 0.3462,
+        "censored_frac": 0.0043,
+        "trusted": true
+      }
+    ],
+    "verdict": {
+      "delta_ms": 139,
+      "survival": 0.9887,
+      "verdict": "GO",
+      "why": "fast leg is effectively static at this delay",
+      "row": {
+        "delta_ms": 139,
+        "obs": 421749,
+        "survival": 0.9887,
+        "price_moved": 0.0032,
+        "size_shrank": 0.0081,
+        "censored_frac": 0.0012,
+        "trusted": true
+      }
+    }
+  },
+  "polymarket": {
+    "venue": "polymarket",
+    "side": "UP",
+    "days": 7.0,
+    "windows": 501,
+    "size_frac": 1.0,
+    "rows": [
+      {
+        "delta_ms": 0,
+        "obs": 2637848,
+        "survival": 0.9728,
+        "price_moved": 0.0114,
+        "size_shrank": 0.0159,
+        "censored_frac": 0.0,
+        "trusted": true
+      },
+      {
+        "delta_ms": 50,
+        "obs": 2636758,
+        "survival": 0.629,
+        "price_moved": 0.1071,
+        "size_shrank": 0.2639,
+        "censored_frac": 0.0004,
+        "trusted": true
+      },
+      {
+        "delta_ms": 100,
+        "obs": 2636355,
+        "survival": 0.5559,
+        "price_moved": 0.159,
+        "size_shrank": 0.2851,
+        "censored_frac": 0.0006,
+        "trusted": true
+      },
+      {
+        "delta_ms": 139,
+        "obs": 2636133,
+        "survival": 0.5269,
+        "price_moved": 0.1847,
+        "size_shrank": 0.2884,
+        "censored_frac": 0.0007,
+        "trusted": true
+      },
+      {
+        "delta_ms": 200,
+        "obs": 2635806,
+        "survival": 0.4957,
+        "price_moved": 0.2134,
+        "size_shrank": 0.2909,
+        "censored_frac": 0.0008,
+        "trusted": true
+      },
+      {
+        "delta_ms": 300,
+        "obs": 2635383,
+        "survival": 0.4644,
+        "price_moved": 0.2455,
+        "size_shrank": 0.2901,
+        "censored_frac": 0.0009,
+        "trusted": true
+      },
+      {
+        "delta_ms": 500,
+        "obs": 2634756,
+        "survival": 0.4288,
+        "price_moved": 0.2861,
+        "size_shrank": 0.2851,
+        "censored_frac": 0.0012,
+        "trusted": true
+      },
+      {
+        "delta_ms": 1000,
+        "obs": 2633557,
+        "survival": 0.3853,
+        "price_moved": 0.3425,
+        "size_shrank": 0.2721,
+        "censored_frac": 0.0016,
+        "trusted": true
+      },
+      {
+        "delta_ms": 2000,
+        "obs": 2631539,
+        "survival": 0.3547,
+        "price_moved": 0.3945,
+        "size_shrank": 0.2508,
+        "censored_frac": 0.0024,
+        "trusted": true
+      }
+    ],
+    "verdict": {
+      "delta_ms": 139,
+      "survival": 0.5269,
+      "verdict": "NO-GO",
+      "why": "fast leg vanishes too often; fall back to parallel dispatch",
+      "row": {
+        "delta_ms": 139,
+        "obs": 2636133,
+        "survival": 0.5269,
+        "price_moved": 0.1847,
+        "size_shrank": 0.2884,
+        "censored_frac": 0.0007,
+        "trusted": true
+      }
+    }
+  },
+  "okx": {
+    "venue": "okx",
+    "side": "UP",
+    "days": 7.0,
+    "windows": 504,
+    "size_frac": 1.0,
+    "rows": [
+      {
+        "delta_ms": 0,
+        "obs": 408895,
+        "survival": 0.999,
+        "price_moved": 0.0007,
+        "size_shrank": 0.0003,
+        "censored_frac": 0.0,
+        "trusted": true
+      },
+      {
+        "delta_ms": 50,
+        "obs": 408391,
+        "survival": 0.9976,
+        "price_moved": 0.0016,
+        "size_shrank": 0.0008,
+        "censored_frac": 0.0012,
+        "trusted": true
+      },
+      {
+        "delta_ms": 100,
+        "obs": 408382,
+        "survival": 0.8591,
+        "price_moved": 0.0902,
+        "size_shrank": 0.0507,
+        "censored_frac": 0.0013,
+        "trusted": true
+      },
+      {
+        "delta_ms": 139,
+        "obs": 408365,
+        "survival": 0.783,
+        "price_moved": 0.1405,
+        "size_shrank": 0.0765,
+        "censored_frac": 0.0013,
+        "trusted": true
+      },
+      {
+        "delta_ms": 200,
+        "obs": 408357,
+        "survival": 0.7608,
+        "price_moved": 0.1605,
+        "size_shrank": 0.0787,
+        "censored_frac": 0.0013,
+        "trusted": true
+      },
+      {
+        "delta_ms": 300,
+        "obs": 408328,
+        "survival": 0.7167,
+        "price_moved": 0.1935,
+        "size_shrank": 0.0897,
+        "censored_frac": 0.0014,
+        "trusted": true
+      },
+      {
+        "delta_ms": 500,
+        "obs": 408289,
+        "survival": 0.6669,
+        "price_moved": 0.2315,
+        "size_shrank": 0.1016,
+        "censored_frac": 0.0015,
+        "trusted": true
+      },
+      {
+        "delta_ms": 1000,
+        "obs": 408165,
+        "survival": 0.6006,
+        "price_moved": 0.2846,
+        "size_shrank": 0.1148,
+        "censored_frac": 0.0018,
+        "trusted": true
+      },
+      {
+        "delta_ms": 2000,
+        "obs": 407984,
+        "survival": 0.5353,
+        "price_moved": 0.3364,
+        "size_shrank": 0.1283,
+        "censored_frac": 0.0022,
+        "trusted": true
+      }
+    ],
+    "verdict": {
+      "delta_ms": 139,
+      "survival": 0.783,
+      "verdict": "NO-GO",
+      "why": "fast leg vanishes too often; fall back to parallel dispatch",
+      "row": {
+        "delta_ms": 139,
+        "obs": 408365,
+        "survival": 0.783,
+        "price_moved": 0.1405,
+        "size_shrank": 0.0765,
+        "censored_frac": 0.0013,
+        "trusted": true
+      }
+    }
+  }
+}
